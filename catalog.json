@@ -1,0 +1,78 @@
+{
+  "owner": "Shrishti Jain",
+  "curated_on": "2026-11-01",
+  "cases": [
+    {
+      "path": "requirements/mexico/kgmx-setup.md",
+      "title": "KGMX commerce setup",
+      "status": "Completed \u2014 owner reported",
+      "role": "End-to-end setup ownership"
+    },
+    {
+      "path": "requirements/canada/kgca-report-scheduling.md",
+      "title": "KGCA report scheduling and reporting handover",
+      "status": "Delivered with an invoicing exception",
+      "role": "End-to-end scheduling ownership; sample validation and query handover"
+    },
+    {
+      "path": "requirements/mexico/price-changes.md",
+      "title": "Mexico price and discount feed changes",
+      "status": "Requirements clarified; staging validation shared",
+      "role": "Requirement analysis, mapping clarification, and QA coordination"
+    },
+    {
+      "path": "requirements/usa/stylux-integration.md",
+      "title": "Stylux digital item feed integration",
+      "status": "Feed format accepted; downstream validation coordinated",
+      "role": "Feed preparation and stakeholder validation"
+    },
+    {
+      "path": "requirements/usa/narvar-shipping-protection.md",
+      "title": "Narvar shipping protection feed handling",
+      "status": "Samples shared; location semantics under review",
+      "role": "Requirement clarification and integration validation"
+    },
+    {
+      "path": "requirements/usa/tiktok-shipping.md",
+      "title": "TikTok shipping requirement discovery",
+      "status": "Requirement received; implementation unverified",
+      "role": "Requirement portfolio entry"
+    },
+    {
+      "path": "issues/canada/financial-feed-missing-shipments.md",
+      "title": "Restoring missing financial feed shipments",
+      "status": "Resolved in team update; customer validation requested",
+      "role": "Investigation and resolution communication"
+    },
+    {
+      "path": "issues/mexico/warehouse-order-upload-recovery.md",
+      "title": "Recovering a failed warehouse order upload",
+      "status": "Immediate recovery completed; recurring RCA open",
+      "role": "Recovery verification and stakeholder follow-up"
+    },
+    {
+      "path": "issues/mexico/cancellation-refund-sync.md",
+      "title": "Mexico cancellations without Shopify refunds",
+      "status": "Team-reported fix",
+      "role": "Team resolution reference; individual implementation not asserted"
+    },
+    {
+      "path": "issues/usa/style-association-correction.md",
+      "title": "Correcting an imported product style association",
+      "status": "Style corrected; image correction pending",
+      "role": "Resolution verification and scoped follow-up"
+    },
+    {
+      "path": "issues/canada/reconciliation-report-recovery.md",
+      "title": "Recovering missing reconciliation report emails",
+      "status": "Historical reports supplied; targeted follow-up completed",
+      "role": "Report preparation, delivery, and data explanation"
+    },
+    {
+      "path": "issues/shared/tracking-and-return-sync.md",
+      "title": "Tracking synchronization and return processing recovery",
+      "status": "Resolved in follow-up; customer confirmation received",
+      "role": "Investigation coordination and tracking-resolution communication"
+    }
+  ]
+}
