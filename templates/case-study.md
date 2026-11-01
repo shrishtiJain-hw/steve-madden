@@ -1,7 +1,9 @@
 # Case title
 
 **Status:** Requirement received / In progress / Partially delivered / Recovered / Resolved  
-**Contribution:** Your actual role
+**Contribution:** Your actual role  
+**Country:** USA / Canada / Mexico  
+**Brand scope:** Confirmed brand codes, or pending confirmation
 
 ## Business context
 

@@ -1,3 +1,7 @@
 # Usa issues
 
-- [Correcting an imported product style association](style-association-correction.md) — Style corrected; image correction pending
+- [SM](sm/README.md)
+- [DV](dv/README.md)
+- [BJ](bj/README.md)
+- [ATM](atm/README.md)
+- [Shared or unconfirmed brand scope](shared/README.md)

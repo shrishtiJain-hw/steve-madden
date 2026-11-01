@@ -3,6 +3,9 @@
 **Status:** Resolved in team update; customer validation requested  
 **Contribution:** Investigation and resolution communication
 
+**Country:** Canada  
+**Brand scope:** DV
+
 ## Business context
 
 An overnight DV financial feed omitted shipment records and made reported shipment volumes appear unusually low.

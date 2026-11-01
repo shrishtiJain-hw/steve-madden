@@ -3,6 +3,9 @@
 **Status:** Feed format accepted; downstream validation coordinated  
 **Contribution:** Feed preparation and stakeholder validation
 
+**Country:** Usa  
+**Brand scope:** DV
+
 ## Business context
 
 Stylux personalization introduced a digital product into an order flow that also handles physically fulfilled merchandise.

@@ -3,6 +3,9 @@
 **Status:** Team-reported fix  
 **Contribution:** Team resolution reference; individual implementation not asserted
 
+**Country:** Mexico  
+**Brand scope:** SM
+
 ## Business context
 
 Orders could appear cancelled in Shopify while the corresponding refund still required manual processing.

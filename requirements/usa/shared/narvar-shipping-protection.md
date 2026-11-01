@@ -3,6 +3,9 @@
 **Status:** Samples shared; location semantics under review  
 **Contribution:** Requirement clarification and integration validation
 
+**Country:** Usa  
+**Brand scope:** SM, DV, BJ in the referenced mapping discussion
+
 ## Business context
 
 Shipping protection is a digital charge whose item identity and store attribution must remain consistent through OMS and downstream financial feeds.

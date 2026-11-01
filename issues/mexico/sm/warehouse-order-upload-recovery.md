@@ -3,6 +3,9 @@
 **Status:** Immediate recovery completed; recurring RCA open  
 **Contribution:** Recovery verification and stakeholder follow-up
 
+**Country:** Mexico  
+**Brand scope:** SM
+
 ## Business context
 
 A Mexico warehouse brokered order failed downstream upload; recurring failures were also reported.

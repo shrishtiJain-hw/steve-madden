@@ -3,6 +3,9 @@
 **Status:** Delivered with an invoicing exception  
 **Contribution:** End-to-end scheduling ownership; sample validation and query handover
 
+**Country:** Canada  
+**Brand scope:** KG
+
 ## Business context
 
 KGCA needed operational reports for demand, fulfillment, inventory exceptions, and reporting reconciliation after launch.

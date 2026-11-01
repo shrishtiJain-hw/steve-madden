@@ -1,4 +1,6 @@
 # Mexico requirements
 
-- [KGMX commerce setup](kgmx-setup.md) — Completed — owner reported
-- [Mexico price and discount feed changes](price-changes.md) — Requirements clarified; staging validation shared
+- [SM](sm/README.md)
+- [DV](dv/README.md)
+- [KG](kg/README.md)
+- [Shared or unconfirmed brand scope](shared/README.md)

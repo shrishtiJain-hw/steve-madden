@@ -3,6 +3,9 @@
 **Status:** Requirement received; implementation unverified  
 **Contribution:** Requirement portfolio entry
 
+**Country:** Usa  
+**Brand scope:** Brand scope pending confirmation
+
 ## Business context
 
 TikTok Shipping was raised as an integration requirement within the Steve Madden workstream.

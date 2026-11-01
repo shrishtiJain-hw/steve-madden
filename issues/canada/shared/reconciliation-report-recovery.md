@@ -3,6 +3,9 @@
 **Status:** Historical reports supplied; targeted follow-up completed  
 **Contribution:** Report preparation, delivery, and data explanation
 
+**Country:** Canada  
+**Brand scope:** SM, DV, KG
+
 ## Business context
 
 Reconciliation emails were missing even though the team confirmed that data had reached ChainDrive.

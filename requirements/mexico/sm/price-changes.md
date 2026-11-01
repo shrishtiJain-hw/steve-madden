@@ -3,6 +3,9 @@
 **Status:** Requirements clarified; staging validation shared  
 **Contribution:** Requirement analysis, mapping clarification, and QA coordination
 
+**Country:** Mexico  
+**Brand scope:** SM; further brand rollout requires separate confirmation
+
 ## Business context
 
 Mexico feeds needed revised pricing semantics while retaining existing column headers across warehouse, store, and return workflows.

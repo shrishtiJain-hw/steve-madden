@@ -3,6 +3,9 @@
 **Status:** Completed — owner reported  
 **Contribution:** End-to-end setup ownership
 
+**Country:** Mexico  
+**Brand scope:** KG
+
 ## Business context
 
 Established the Mexico commerce setup across Shopify and HotWax OMS, from store configuration through catalog, inventory, and fulfillment readiness.

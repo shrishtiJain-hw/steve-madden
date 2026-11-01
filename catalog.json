@@ -3,76 +3,118 @@
   "curated_on": "2026-11-01",
   "cases": [
     {
-      "path": "requirements/mexico/kgmx-setup.md",
+      "path": "requirements/mexico/kg/kgmx-setup.md",
       "title": "KGMX commerce setup",
       "status": "Completed \u2014 owner reported",
-      "role": "End-to-end setup ownership"
+      "role": "End-to-end setup ownership",
+      "market": "mexico",
+      "brand_folder": "kg"
     },
     {
-      "path": "requirements/canada/kgca-report-scheduling.md",
+      "path": "requirements/canada/kg/kgca-report-scheduling.md",
       "title": "KGCA report scheduling and reporting handover",
       "status": "Delivered with an invoicing exception",
-      "role": "End-to-end scheduling ownership; sample validation and query handover"
+      "role": "End-to-end scheduling ownership; sample validation and query handover",
+      "market": "canada",
+      "brand_folder": "kg"
     },
     {
-      "path": "requirements/mexico/price-changes.md",
+      "path": "requirements/mexico/sm/price-changes.md",
       "title": "Mexico price and discount feed changes",
       "status": "Requirements clarified; staging validation shared",
-      "role": "Requirement analysis, mapping clarification, and QA coordination"
+      "role": "Requirement analysis, mapping clarification, and QA coordination",
+      "market": "mexico",
+      "brand_folder": "sm"
     },
     {
-      "path": "requirements/usa/stylux-integration.md",
+      "path": "requirements/usa/dv/stylux-integration.md",
       "title": "Stylux digital item feed integration",
       "status": "Feed format accepted; downstream validation coordinated",
-      "role": "Feed preparation and stakeholder validation"
+      "role": "Feed preparation and stakeholder validation",
+      "market": "usa",
+      "brand_folder": "dv"
     },
     {
-      "path": "requirements/usa/narvar-shipping-protection.md",
+      "path": "requirements/usa/shared/narvar-shipping-protection.md",
       "title": "Narvar shipping protection feed handling",
       "status": "Samples shared; location semantics under review",
-      "role": "Requirement clarification and integration validation"
+      "role": "Requirement clarification and integration validation",
+      "market": "usa",
+      "brand_folder": "shared"
     },
     {
-      "path": "requirements/usa/tiktok-shipping.md",
+      "path": "requirements/usa/shared/tiktok-shipping.md",
       "title": "TikTok shipping requirement discovery",
       "status": "Requirement received; implementation unverified",
-      "role": "Requirement portfolio entry"
+      "role": "Requirement portfolio entry",
+      "market": "usa",
+      "brand_folder": "shared"
     },
     {
-      "path": "issues/canada/financial-feed-missing-shipments.md",
+      "path": "issues/canada/dv/financial-feed-missing-shipments.md",
       "title": "Restoring missing financial feed shipments",
       "status": "Resolved in team update; customer validation requested",
-      "role": "Investigation and resolution communication"
+      "role": "Investigation and resolution communication",
+      "market": "canada",
+      "brand_folder": "dv"
     },
     {
-      "path": "issues/mexico/warehouse-order-upload-recovery.md",
+      "path": "issues/mexico/sm/warehouse-order-upload-recovery.md",
       "title": "Recovering a failed warehouse order upload",
       "status": "Immediate recovery completed; recurring RCA open",
-      "role": "Recovery verification and stakeholder follow-up"
+      "role": "Recovery verification and stakeholder follow-up",
+      "market": "mexico",
+      "brand_folder": "sm"
     },
     {
-      "path": "issues/mexico/cancellation-refund-sync.md",
+      "path": "issues/mexico/sm/cancellation-refund-sync.md",
       "title": "Mexico cancellations without Shopify refunds",
       "status": "Team-reported fix",
-      "role": "Team resolution reference; individual implementation not asserted"
+      "role": "Team resolution reference; individual implementation not asserted",
+      "market": "mexico",
+      "brand_folder": "sm"
     },
     {
-      "path": "issues/usa/style-association-correction.md",
+      "path": "issues/usa/sm/style-association-correction.md",
       "title": "Correcting an imported product style association",
       "status": "Style corrected; image correction pending",
-      "role": "Resolution verification and scoped follow-up"
+      "role": "Resolution verification and scoped follow-up",
+      "market": "usa",
+      "brand_folder": "sm"
     },
     {
-      "path": "issues/canada/reconciliation-report-recovery.md",
+      "path": "issues/canada/shared/reconciliation-report-recovery.md",
       "title": "Recovering missing reconciliation report emails",
       "status": "Historical reports supplied; targeted follow-up completed",
-      "role": "Report preparation, delivery, and data explanation"
+      "role": "Report preparation, delivery, and data explanation",
+      "market": "canada",
+      "brand_folder": "shared"
     },
     {
       "path": "issues/shared/tracking-and-return-sync.md",
       "title": "Tracking synchronization and return processing recovery",
       "status": "Resolved in follow-up; customer confirmation received",
-      "role": "Investigation coordination and tracking-resolution communication"
+      "role": "Investigation coordination and tracking-resolution communication",
+      "market": "shared",
+      "brand_folder": "shared"
     }
-  ]
+  ],
+  "markets": {
+    "usa": [
+      "SM",
+      "DV",
+      "BJ",
+      "ATM"
+    ],
+    "canada": [
+      "SM",
+      "DV",
+      "KG"
+    ],
+    "mexico": [
+      "SM",
+      "DV",
+      "KG"
+    ]
+  }
 }

@@ -3,6 +3,9 @@
 **Status:** Style corrected; image correction pending  
 **Contribution:** Resolution verification and scoped follow-up
 
+**Country:** Usa  
+**Brand scope:** SM
+
 ## Business context
 
 An imported product variant displayed an incorrect style name and image in OMS.
