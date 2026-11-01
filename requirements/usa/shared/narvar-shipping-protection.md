@@ -1,9 +1,9 @@
 # Narvar shipping protection feed handling
 
-**Status:** Samples shared; location semantics under review  
+**Status:** Samples shared; location semantics under review\
 **Contribution:** Requirement clarification and integration validation
 
-**Country:** Usa  
+**Country:** Usa\
 **Brand scope:** SM, DV, BJ in the referenced mapping discussion
 
 ## Business context
@@ -21,6 +21,14 @@ Sample generation and review requests are documented. Later team correspondence 
 ## Validation and next checks
 
 Proposed acceptance checks: agree on blank versus NA semantics, prevent blank-to-zero coercion, validate the digital item mapping per brand/environment, and reconcile the charge once downstream.
+
+## RCA and evidence
+
+Later team updates identified a missed production item mapping for DV/BJ and default formatting that converted blank location data to 000. Final closure was not established.
+
+## Documented actions
+
+Generated samples and clarified store attribution; team members reported mapping/default-format findings. Their fixes are not attributed to my implementation.
 
 ## Evidence basis
 

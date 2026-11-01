@@ -1,9 +1,9 @@
 # KGMX commerce setup
 
-**Status:** Completed — owner reported  
+**Status:** Completed — owner reported\
 **Contribution:** End-to-end setup ownership
 
-**Country:** Mexico  
+**Country:** Mexico\
 **Brand scope:** KG
 
 ## Business context
@@ -30,6 +30,14 @@ Completed the setup independently. Deployment dates, throughput improvements, an
 ## Validation and next checks
 
 Reusable handover checks: validate product import counts, inventory availability, order import, facility routing, and a complete fulfillment cycle. These are recommended checks rather than an attached execution log.
+
+## RCA and evidence
+
+Implementation case: no incident RCA applies. Scope and ownership are owner-reported; the screenshot records a checklist snapshot.
+
+## Documented actions
+
+Owned the setup scope, including store, integration, catalog, inventory, routing, and fulfillment configuration. Individual execution logs are not attached.
 
 ## Evidence basis
 

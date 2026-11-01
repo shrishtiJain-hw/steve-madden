@@ -1,27 +1,40 @@
-# TikTok shipping requirement discovery
+# TikTok fulfillment and shipping-feed changes
 
-**Status:** Requirement received; implementation unverified  
-**Contribution:** Requirement portfolio entry
+**Country:** Usa\
+**Brands:** DV\
+**Status:** DVUS staging approach agreed; implementation unverified\
+**Contribution:** Investigation, validation, and stakeholder coordination
 
-**Country:** Usa  
-**Brand scope:** Brand scope pending confirmation
+## Issue and business impact
 
-## Business context
+TikTok-managed fulfillment and labels change the customer-address information available to Shopify and downstream systems.
 
-TikTok Shipping was raised as an integration requirement within the Steve Madden workstream.
+## Expected behavior and requirement
 
-## Approach and contribution
+Agree on how WMI receives a TikTok order when the actual delivery address is withheld, and retain the intended TikTok shipping identifier.
 
-A proposed discovery approach is to document shipping ownership, label creation, carrier/service mappings, tracking updates, cancellations, and handoff expectations before changing the integration. These are design questions, not confirmed requirements from the meeting invitations.
+## RCA and evidence
+
+October 30 call notes state that TikTok would fulfill and generate labels. The discussion considered Shopify Flow enrichment versus a HotWax feed change. These are business meeting notes, not an independently verified TikTok platform specification.
+
+## Documented actions
+
+1. I documented the fulfillment/address requirement and downstream WMI dependency.
+2. The call compared source enrichment with hardcoding a reference address in the HotWax feed.
+3. The recorded DVUS staging action was to use a reference address and Ship Via TIKT for TikTok orders through Mule and M3.
 
 ## Outcome and remaining work
 
-The mailbox contains TikTok Shipping meeting invitations. They establish a workstream, but do not establish a shipped solution or a root cause.
+The staging approach is more specific than the initial meeting invitations. No completed staging test, production rollout, or measured outcome is present in the reviewed record.
 
-## Validation and next checks
+## Recommended validation and prevention
 
-Proposed validation: one order through shipping and tracking, an invalid service, a cancellation, and a replayed event. Record acceptance criteria before implementation.
+The following checks are proposed follow-up guidance unless explicitly confirmed above.
+
+- Validate label ownership and routing end to end with the receiving warehouse.
+- Confirm agreed address handling without republishing any customer addresses.
+- Test cancellation and tracking behavior before production release.
 
 ## Evidence basis
 
-Owner-supplied requirement list and “TikTok Shipping” meeting invitations. No meeting credentials or join links are retained.
+October 30 call notes in Codex chat “Update job schedule times,” with “TikTok Shipping” invitations as earlier workstream evidence.

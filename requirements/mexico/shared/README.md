@@ -1,3 +1,3 @@
-# Mexico Shared or unconfirmed brand scope requirements
+# Mexico SHARED requirements
 
-No case studies added yet.
+- [Mexico order-type change to stop automatic invoicing](order-type-auto-invoicing.md) — Production configuration and business confirmation recorded

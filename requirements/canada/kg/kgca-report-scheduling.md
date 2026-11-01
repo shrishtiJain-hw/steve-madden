@@ -1,9 +1,9 @@
 # KGCA report scheduling and reporting handover
 
-**Status:** Delivered with an invoicing exception  
+**Status:** Delivered with an invoicing exception\
 **Contribution:** End-to-end scheduling ownership; sample validation and query handover
 
-**Country:** Canada  
+**Country:** Canada\
 **Brand scope:** KG
 
 ## Business context
@@ -25,6 +25,14 @@ The September 30 update states that requested reports were scheduled except Invo
 ## Validation and next checks
 
 Recommended operating checks: record schedule timezone and recipients, verify eligibility filters, test one populated and one empty run, and reconcile a sample against source transactions. Track Invoicing Condensed separately until completion is confirmed.
+
+## RCA and evidence
+
+Report eligibility and schedule existence are separate. Sparse launch data explains some empty samples; Invoicing Condensed remained the documented exception.
+
+## Documented actions
+
+Configured report queries/schedules, supplied available samples, explained eligibility gaps, and provided the query handover.
 
 ## Evidence basis
 

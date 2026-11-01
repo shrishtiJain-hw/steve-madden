@@ -1,9 +1,9 @@
 # Correcting an imported product style association
 
-**Status:** Style corrected; image correction pending  
+**Status:** Style corrected; image correction pending\
 **Contribution:** Resolution verification and scoped follow-up
 
-**Country:** Usa  
+**Country:** Usa\
 **Brand scope:** SM
 
 ## Business context
@@ -21,6 +21,14 @@ The style-name correction was confirmed in my update. Image remediation remained
 ## Validation and next checks
 
 Recommended checks: compare source and OMS variant identifiers, validate the corrected style in the order view, and confirm imagery separately after deployment.
+
+## RCA and evidence
+
+The style association was incorrect. A separate image discrepancy remained open. The mail does not explain the precise code path that produced the association.
+
+## Documented actions
+
+Confirmed the corrected style, kept an image follow-up ticket, and received customer confirmation that the name was now correct.
 
 ## Evidence basis
 

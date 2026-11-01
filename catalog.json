@@ -1,86 +1,121 @@
 {
   "owner": "Shrishti Jain",
-  "curated_on": "2026-11-01",
+  "curated_on": "2026-11-02",
   "cases": [
-    {
-      "path": "requirements/mexico/kg/kgmx-setup.md",
-      "title": "KGMX commerce setup",
-      "status": "Completed \u2014 owner reported",
-      "role": "End-to-end setup ownership",
-      "market": "mexico",
-      "brand_folder": "kg"
-    },
-    {
-      "path": "requirements/canada/kg/kgca-report-scheduling.md",
-      "title": "KGCA report scheduling and reporting handover",
-      "status": "Delivered with an invoicing exception",
-      "role": "End-to-end scheduling ownership; sample validation and query handover",
-      "market": "canada",
-      "brand_folder": "kg"
-    },
-    {
-      "path": "requirements/mexico/sm/price-changes.md",
-      "title": "Mexico price and discount feed changes",
-      "status": "Requirements clarified; staging validation shared",
-      "role": "Requirement analysis, mapping clarification, and QA coordination",
-      "market": "mexico",
-      "brand_folder": "sm"
-    },
-    {
-      "path": "requirements/usa/dv/stylux-integration.md",
-      "title": "Stylux digital item feed integration",
-      "status": "Feed format accepted; downstream validation coordinated",
-      "role": "Feed preparation and stakeholder validation",
-      "market": "usa",
-      "brand_folder": "dv"
-    },
-    {
-      "path": "requirements/usa/shared/narvar-shipping-protection.md",
-      "title": "Narvar shipping protection feed handling",
-      "status": "Samples shared; location semantics under review",
-      "role": "Requirement clarification and integration validation",
-      "market": "usa",
-      "brand_folder": "shared"
-    },
-    {
-      "path": "requirements/usa/shared/tiktok-shipping.md",
-      "title": "TikTok shipping requirement discovery",
-      "status": "Requirement received; implementation unverified",
-      "role": "Requirement portfolio entry",
-      "market": "usa",
-      "brand_folder": "shared"
-    },
     {
       "path": "issues/canada/dv/financial-feed-missing-shipments.md",
       "title": "Restoring missing financial feed shipments",
       "status": "Resolved in team update; customer validation requested",
       "role": "Investigation and resolution communication",
       "market": "canada",
-      "brand_folder": "dv"
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
     },
     {
-      "path": "issues/mexico/sm/warehouse-order-upload-recovery.md",
-      "title": "Recovering a failed warehouse order upload",
-      "status": "Immediate recovery completed; recurring RCA open",
-      "role": "Recovery verification and stakeholder follow-up",
-      "market": "mexico",
-      "brand_folder": "sm"
+      "path": "issues/canada/dv/financial-feed-processing-window.md",
+      "title": "Financial feed retry needed outside the restricted window",
+      "status": "Sales feed reprocessed; downstream confirmation requested",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "canada",
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
     },
     {
-      "path": "issues/mexico/sm/cancellation-refund-sync.md",
-      "title": "Mexico cancellations without Shopify refunds",
-      "status": "Team-reported fix",
-      "role": "Team resolution reference; individual implementation not asserted",
-      "market": "mexico",
-      "brand_folder": "sm"
+      "path": "issues/canada/dv/fulfillment-session-recovery.md",
+      "title": "DV store could not complete shipping from fulfillment",
+      "status": "Customer confirmed recovery after session refresh",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "canada",
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
     },
     {
-      "path": "issues/usa/sm/style-association-correction.md",
-      "title": "Correcting an imported product style association",
-      "status": "Style corrected; image correction pending",
-      "role": "Resolution verification and scoped follow-up",
-      "market": "usa",
-      "brand_folder": "sm"
+      "path": "issues/canada/dv/new-location-missing-from-brokering.md",
+      "title": "New DV location missing from brokering choices",
+      "status": "Location added; customer confirmed availability",
+      "role": "Team incident reference; personal implementation not established",
+      "market": "canada",
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/canada/shared/contact-update-source-of-truth.md",
+      "title": "Contact updates blocked during Shopify fulfillment",
+      "status": "Source-system update guidance confirmed by customer",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "canada",
+      "brand_folder": "shared",
+      "brands": [
+        "SM",
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/canada/shared/label-and-packing-slip-recovery.md",
+      "title": "Recovering Canada label and packing-slip exceptions",
+      "status": "Affected examples completed; cancellations separated",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "canada",
+      "brand_folder": "shared",
+      "brands": [
+        "SM",
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/canada/shared/missing-sales-summary-dates.md",
+      "title": "Sales Summary dates missing from reporting",
+      "status": "Source data reviewed and replacement CSVs supplied",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "canada",
+      "brand_folder": "shared",
+      "brands": [
+        "SM",
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/canada/shared/network-related-feed-delay.md",
+      "title": "Canada feeds delayed by network processing issues",
+      "status": "Feeds processed and sent in the incident update",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "canada",
+      "brand_folder": "shared",
+      "brands": [
+        "Country-wide; brands not itemized"
+      ]
+    },
+    {
+      "path": "issues/canada/shared/orders-returning-to-preorder.md",
+      "title": "Available-stock orders returned to preorder hold",
+      "status": "October incident recovered; later manual holds distinguished",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "canada",
+      "brand_folder": "shared",
+      "brands": [
+        "SM",
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/canada/shared/past-due-auto-cancellations.md",
+      "title": "Past-due unfillable orders did not auto-cancel",
+      "status": "Listed orders cancelled after background processing refresh",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "canada",
+      "brand_folder": "shared",
+      "brands": [
+        "SM",
+        "DV"
+      ]
     },
     {
       "path": "issues/canada/shared/reconciliation-report-recovery.md",
@@ -88,7 +123,98 @@
       "status": "Historical reports supplied; targeted follow-up completed",
       "role": "Report preparation, delivery, and data explanation",
       "market": "canada",
-      "brand_folder": "shared"
+      "brand_folder": "shared",
+      "brands": [
+        "Scope described in case"
+      ]
+    },
+    {
+      "path": "issues/canada/sm/cross-shop-image-association.md",
+      "title": "Wrong product imagery from a shared parent handle",
+      "status": "Immediate correction confirmed; permanent code fix planned",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "canada",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/canada/sm/express-service-selection.md",
+      "title": "Express shipping label failed under an incompatible service",
+      "status": "Label generated; operating guidance acknowledged",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "canada",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/mexico/sm/cancellation-refund-sync.md",
+      "title": "Mexico cancellations without Shopify refunds",
+      "status": "Team-reported fix",
+      "role": "Team resolution reference; individual implementation not asserted",
+      "market": "mexico",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/mexico/sm/fulfilled-historical-order-import.md",
+      "title": "Fulfilled order import resolved to a virtual location",
+      "status": "Import blocker identified; recovery route proposed",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "mexico",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/mexico/sm/internal-versus-external-customer-number.md",
+      "title": "POS customer number used an internal facility ID",
+      "status": "Code path identified; permanent fix proposed",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "mexico",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/mexico/sm/send-sale-required-fields.md",
+      "title": "PredictSpring send-sale feed failed required-field checks",
+      "status": "Field-level findings shared; retests requested",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "mexico",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/mexico/sm/warehouse-order-upload-recovery.md",
+      "title": "Recovering a failed warehouse order upload",
+      "status": "Immediate recovery completed; recurring RCA open",
+      "role": "Recovery verification and stakeholder follow-up",
+      "market": "mexico",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/shared/report-style-name-consistency.md",
+      "title": "Inconsistent product names across operational reports",
+      "status": "Incorrect output established; production cause unresolved",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "shared",
+      "brand_folder": "shared",
+      "brands": [
+        "SM"
+      ]
     },
     {
       "path": "issues/shared/tracking-and-return-sync.md",
@@ -96,7 +222,450 @@
       "status": "Resolved in follow-up; customer confirmation received",
       "role": "Investigation coordination and tracking-resolution communication",
       "market": "shared",
-      "brand_folder": "shared"
+      "brand_folder": "shared",
+      "brands": [
+        "SM",
+        "DV",
+        "KG"
+      ]
+    },
+    {
+      "path": "issues/usa/atm/blank-carrier-code.md",
+      "title": "Warehouse feed rejected for a blank carrier code",
+      "status": "Feed mapping updated; affected feeds regenerated",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "atm",
+      "brands": [
+        "ATM"
+      ]
+    },
+    {
+      "path": "issues/usa/atm/fully-discounted-order-validation.md",
+      "title": "Fully discounted ATM orders in downstream processing",
+      "status": "M3 processing confirmed",
+      "role": "Investigation workstream participant; team validation and recovery reference",
+      "market": "usa",
+      "brand_folder": "atm",
+      "brands": [
+        "ATM"
+      ]
+    },
+    {
+      "path": "issues/usa/atm/inventory-threshold-removal.md",
+      "title": "Inventory availability reduced by an item threshold",
+      "status": "Threshold removed; customer confirmed both systems",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "atm",
+      "brands": [
+        "ATM"
+      ]
+    },
+    {
+      "path": "issues/usa/atm/next-day-import-mapping.md",
+      "title": "Next Day orders imported as Standard",
+      "status": "Configuration live; staging import confirmed",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "atm",
+      "brands": [
+        "ATM"
+      ]
+    },
+    {
+      "path": "issues/usa/bj/backorder-to-unfillable-routing.md",
+      "title": "BJ backorder styles routed into Unfillable",
+      "status": "New-order configuration fixed; backlog correction underway",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "bj",
+      "brands": [
+        "BJ"
+      ]
+    },
+    {
+      "path": "issues/usa/bj/brokered-orders-missing-from-report-table.md",
+      "title": "Brokered BJ orders missing from reporting data",
+      "status": "Recovery extract supplied; RCA open",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "bj",
+      "brands": [
+        "BJ"
+      ]
+    },
+    {
+      "path": "issues/usa/bj/inventory-absent-from-upstream-files.md",
+      "title": "BJ inventory missing from the M3 source feed",
+      "status": "Upstream absence verified; replenishment confirmation requested",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "bj",
+      "brands": [
+        "BJ"
+      ]
+    },
+    {
+      "path": "issues/usa/bj/overdue-accessory-purchase-orders.md",
+      "title": "Accessories unavailable despite open purchase orders",
+      "status": "Supply dependency identified; receipt pending",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "bj",
+      "brands": [
+        "BJ"
+      ]
+    },
+    {
+      "path": "issues/usa/bj/released-preorders-missing-records.md",
+      "title": "BJ releases absent from the preorder report",
+      "status": "Data location explained; business classification open",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "bj",
+      "brands": [
+        "BJ"
+      ]
+    },
+    {
+      "path": "issues/usa/dv/completed-order-still-in-progress.md",
+      "title": "Completed DV order still visible in a store queue",
+      "status": "Open; earlier closure statement corrected",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/usa/dv/delayed-order-import.md",
+      "title": "Dolce Vita orders delayed in OMS import",
+      "status": "Reported backlog imported; recurring cause open",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/usa/dv/incomplete-return-item-feeds.md",
+      "title": "Return records missing item details downstream",
+      "status": "Examples reprocessed; further failures reported",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/usa/dv/return-versus-appeasement-value.md",
+      "title": "Physical return value and customer refund diverge",
+      "status": "Accounting contract unresolved",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/usa/dv/unexpected-shopify-inventory-adjustments.md",
+      "title": "Unexpected Shopify inventory adjustments attributed to SyncJobs",
+      "status": "External adjustment path under investigation",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/usa/dv/variant-reassociation-delta-sync.md",
+      "title": "Inventory missed after Shopify variant reassociation",
+      "status": "Inventory flow restored; customer confirmed",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/usa/dv/weekly-report-date-boundary.md",
+      "title": "Weekly shipped-units report used the wrong dates",
+      "status": "Corrected report delivered",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
+    },
+    {
+      "path": "issues/usa/shared/created-order-backlog.md",
+      "title": "Orders stalled in Created across US brands",
+      "status": "Reported backlog resolved; technical RCA unavailable",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "shared",
+      "brands": [
+        "SM",
+        "DV",
+        "BJ"
+      ]
+    },
+    {
+      "path": "issues/usa/shared/preorder-mapping-created-after-event.md",
+      "title": "Preorder update skipped before Shopify mapping existed",
+      "status": "Targeted push reported in Codex discussion",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "shared",
+      "brands": [
+        "Brand scope unconfirmed"
+      ]
+    },
+    {
+      "path": "issues/usa/shared/qoh-discrepancy-not-fully-explained.md",
+      "title": "Displayed stock discrepancy remained after QOH explanation",
+      "status": "Open; physical-count discrepancy still disputed",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "shared",
+      "brands": [
+        "Brand scope unconfirmed"
+      ]
+    },
+    {
+      "path": "issues/usa/sm/cancelled-items-still-in-queue.md",
+      "title": "Cancelled items remained in fulfillment queues",
+      "status": "Affected examples cleared; store confirmation received",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/usa/sm/concurrent-order-creation.md",
+      "title": "Duplicate order headers during overlapping import",
+      "status": "Race condition supported; exact creator unresolved",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/usa/sm/inventory-channel-exclusion.md",
+      "title": "Physical stock excluded by the selected inventory channel",
+      "status": "Channel-selection diagnosis; no resync performed",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/usa/sm/large-allocation-audit-response.md",
+      "title": "Large allocation response failed database indexing",
+      "status": "Allocator-side deployment reported; order brokered",
+      "role": "Investigation participant; upstream team fix reference",
+      "market": "usa",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/usa/sm/old-upc-blocks-brokering.md",
+      "title": "Changed product UPC blocked Fenix brokering",
+      "status": "Orders brokered through a temporary upstream workaround",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "issues/usa/sm/style-association-correction.md",
+      "title": "Correcting an imported product style association",
+      "status": "Style corrected; image correction pending",
+      "role": "Resolution verification and scoped follow-up",
+      "market": "usa",
+      "brand_folder": "sm",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "requirements/canada/kg/bilingual-packing-slips.md",
+      "title": "KGCA English and French packing-slip updates",
+      "status": "Samples improved; French decimal-comma formatting pending",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "canada",
+      "brand_folder": "kg",
+      "brands": [
+        "KG"
+      ]
+    },
+    {
+      "path": "requirements/canada/kg/kgca-report-scheduling.md",
+      "title": "KGCA report scheduling and reporting handover",
+      "status": "Delivered with an invoicing exception",
+      "role": "End-to-end scheduling ownership; sample validation and query handover",
+      "market": "canada",
+      "brand_folder": "kg",
+      "brands": [
+        "KG"
+      ]
+    },
+    {
+      "path": "requirements/canada/shared/exclude-recalled-preorder-supply.md",
+      "title": "Exclude recalled facility supply from online preorders",
+      "status": "DV change reported live; SM rollout still pending",
+      "role": "Investigation workstream participant; team rollout reference",
+      "market": "canada",
+      "brand_folder": "shared",
+      "brands": [
+        "SM",
+        "DV"
+      ]
+    },
+    {
+      "path": "requirements/mexico/kg/kgmx-setup.md",
+      "title": "KGMX commerce setup",
+      "status": "Completed \u2014 owner reported",
+      "role": "End-to-end setup ownership",
+      "market": "mexico",
+      "brand_folder": "kg",
+      "brands": [
+        "KG"
+      ]
+    },
+    {
+      "path": "requirements/mexico/shared/order-type-auto-invoicing.md",
+      "title": "Mexico order-type change to stop automatic invoicing",
+      "status": "Production configuration and business confirmation recorded",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "mexico",
+      "brand_folder": "shared",
+      "brands": [
+        "SM",
+        "DV"
+      ]
+    },
+    {
+      "path": "requirements/mexico/sm/price-changes.md",
+      "title": "Mexico price and discount feed changes",
+      "status": "Staging samples shared; final VAT treatment unresolved",
+      "role": "Requirement analysis, mapping clarification, and QA coordination",
+      "market": "mexico",
+      "brand_folder": "sm",
+      "brands": [
+        "SM",
+        "DV"
+      ]
+    },
+    {
+      "path": "requirements/shared/split-purchase-order-lines.md",
+      "title": "Preserve separate PO lines for different arrival dates",
+      "status": "Fresh-import UI validation recorded; rollout reported in call notes",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "shared",
+      "brand_folder": "shared",
+      "brands": [
+        "Brand scope unconfirmed"
+      ]
+    },
+    {
+      "path": "requirements/usa/atm/financial-feed-field-mapping.md",
+      "title": "ATM warehouse and shipping-item feed mapping",
+      "status": "Samples delivered; field semantics clarified",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "atm",
+      "brands": [
+        "ATM"
+      ]
+    },
+    {
+      "path": "requirements/usa/dv/stylux-integration.md",
+      "title": "Stylux digital item feed integration",
+      "status": "Feed format accepted; downstream validation coordinated",
+      "role": "Feed preparation and stakeholder validation",
+      "market": "usa",
+      "brand_folder": "dv",
+      "brands": [
+        "DV"
+      ]
+    },
+    {
+      "path": "requirements/usa/shared/graphql-feed-validation.md",
+      "title": "Order and return feed validation for GraphQL migration",
+      "status": "Test scenarios and UAT data prepared; downstream review requested",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "shared",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "requirements/usa/shared/narvar-shipping-protection.md",
+      "title": "Narvar shipping protection feed handling",
+      "status": "Samples shared; location semantics under review",
+      "role": "Requirement clarification and integration validation",
+      "market": "usa",
+      "brand_folder": "shared",
+      "brands": [
+        "SM",
+        "DV",
+        "BJ"
+      ]
+    },
+    {
+      "path": "requirements/usa/shared/send-sale-shipping-charge.md",
+      "title": "Send-sale shipping charges and tax in outbound feeds",
+      "status": "Staging feeds reviewed; production move requested",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "shared",
+      "brands": [
+        "SM"
+      ]
+    },
+    {
+      "path": "requirements/usa/shared/shipped-units-dashboard.md",
+      "title": "Brand and date aware shipped-units reporting",
+      "status": "Reports delivered; dashboard permissions updated",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "shared",
+      "brands": [
+        "SM",
+        "DV",
+        "ATM"
+      ]
+    },
+    {
+      "path": "requirements/usa/shared/tiktok-shipping.md",
+      "title": "TikTok fulfillment and shipping-feed changes",
+      "status": "DVUS staging approach agreed; implementation unverified",
+      "role": "Investigation, validation, and stakeholder coordination",
+      "market": "usa",
+      "brand_folder": "shared",
+      "brands": [
+        "DV"
+      ]
     }
   ],
   "markets": {

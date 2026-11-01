@@ -1,9 +1,9 @@
 # Restoring missing financial feed shipments
 
-**Status:** Resolved in team update; customer validation requested  
+**Status:** Resolved in team update; customer validation requested\
 **Contribution:** Investigation and resolution communication
 
-**Country:** Canada  
+**Country:** Canada\
 **Brand scope:** DV
 
 ## Business context
@@ -21,6 +21,14 @@ The update confirms that the job issue was resolved and the regenerated feed inc
 ## Validation and next checks
 
 Recommended prevention: reconcile source shipment counts with export counts, inspect job configuration changes, and verify recovery coverage for the affected period without duplicate records.
+
+## RCA and evidence
+
+A financial-feed job configuration excluded shipment records. The issue affected reporting rather than actual shipment execution.
+
+## Documented actions
+
+Investigated and communicated the job issue, reported recovery of the omitted period, and requested downstream reconciliation.
 
 ## Evidence basis
 

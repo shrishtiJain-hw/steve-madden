@@ -1,3 +1,3 @@
-# Mexico Shared or unconfirmed brand scope issues
+# Mexico SHARED issues
 
-No case studies added yet.
+No source-supported case is included in this edition.

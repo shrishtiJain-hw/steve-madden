@@ -1,9 +1,9 @@
 # Stylux digital item feed integration
 
-**Status:** Feed format accepted; downstream validation coordinated  
+**Status:** Feed format accepted; downstream validation coordinated\
 **Contribution:** Feed preparation and stakeholder validation
 
-**Country:** Usa  
+**Country:** Usa\
 **Brand scope:** DV
 
 ## Business context
@@ -21,6 +21,14 @@ The shared format was accepted as good to proceed in the “Stylux Setup + Shipp
 ## Validation and next checks
 
 Recommended regression scenarios: merchandise plus personalization, digital-only items, cancellation, return treatment, and consistent item mapping. Verify downstream acceptance independently of file generation.
+
+## RCA and evidence
+
+Digital-item representation required explicit mapping and downstream validation. This is requirement delivery, not a single diagnosed defect.
+
+## Documented actions
+
+Prepared the sample feed and requested M3 review; the receiving stakeholder accepted the file format.
 
 ## Evidence basis
 

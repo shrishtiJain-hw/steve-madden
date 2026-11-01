@@ -1,3 +1,3 @@
-# Canada Shared or unconfirmed brand scope requirements
+# Canada SHARED requirements
 
-No case studies added yet.
+- [Exclude recalled facility supply from online preorders](exclude-recalled-preorder-supply.md) — DV change reported live; SM rollout still pending

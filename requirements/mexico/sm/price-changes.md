@@ -1,10 +1,10 @@
 # Mexico price and discount feed changes
 
-**Status:** Requirements clarified; staging validation shared  
+**Status:** Staging samples shared; final VAT treatment unresolved\
 **Contribution:** Requirement analysis, mapping clarification, and QA coordination
 
-**Country:** Mexico  
-**Brand scope:** SM; further brand rollout requires separate confirmation
+**Country:** Mexico\
+**Brand scope:** SM and DV; reviewed staging returns and appeasement samples cover both brands
 
 ## Business context
 
@@ -29,6 +29,14 @@ Mapping clarification and sample validation are documented. The thread contains 
 ## Validation and next checks
 
 Proposed QA matrix: compare-at present/absent, coupon present/absent, multi-line orders, returns, rounding, and VAT at each interface. Use synthetic values and reconcile line totals before approval.
+
+## RCA and evidence
+
+The integration contract needed unambiguous price, coupon, fallback, and VAT semantics. VAT remained disputed in later mail.
+
+## Documented actions
+
+Clarified column meanings, supplied staging feeds, requested feedback, and followed up on unresolved VAT treatment. Later reviewed mails explicitly included SM-MX and DV-MX return/appeasement samples.
 
 ## Evidence basis
 

@@ -1,9 +1,9 @@
 # Mexico cancellations without Shopify refunds
 
-**Status:** Team-reported fix  
+**Status:** Team-reported fix\
 **Contribution:** Team resolution reference; individual implementation not asserted
 
-**Country:** Mexico  
+**Country:** Mexico\
 **Brand scope:** SM
 
 ## Business context
@@ -21,6 +21,14 @@ A team update reported the issue fixed. This case records the shared finding and
 ## Validation and next checks
 
 Recommended checks: verify cancellation and refund independently, inspect payment transaction outcomes, test partial cancellation, and confirm no duplicate refund on retry.
+
+## RCA and evidence
+
+The team reported Shopify refund processing on cancellation was disabled. Cancellation state and refund execution therefore diverged.
+
+## Documented actions
+
+The shared team update reported correction. My implementation ownership is not established by the reviewed messages.
 
 ## Evidence basis
 

@@ -1,9 +1,9 @@
 # Recovering a failed warehouse order upload
 
-**Status:** Immediate recovery completed; recurring RCA open  
+**Status:** Immediate recovery completed; recurring RCA open\
 **Contribution:** Recovery verification and stakeholder follow-up
 
-**Country:** Mexico  
+**Country:** Mexico\
 **Brand scope:** SM
 
 ## Business context
@@ -21,6 +21,14 @@ The immediate fix and resend are documented. The recurring root cause remained u
 ## Validation and next checks
 
 Proposed follow-up: compare failed and successful payloads, validate style identifiers, correlate retry outcomes, and verify downstream idempotency before replaying more files.
+
+## RCA and evidence
+
+The affected upload was recovered, while the recurring failure mechanism remained under investigation. A style-related error alone does not establish the full cause.
+
+## Documented actions
+
+Verified the immediate correction, resent the brokered feed, and requested downstream processing confirmation.
 
 ## Evidence basis
 

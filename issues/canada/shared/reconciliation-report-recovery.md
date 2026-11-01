@@ -1,9 +1,9 @@
 # Recovering missing reconciliation report emails
 
-**Status:** Historical reports supplied; targeted follow-up completed  
+**Status:** Historical reports supplied; targeted follow-up completed\
 **Contribution:** Report preparation, delivery, and data explanation
 
-**Country:** Canada  
+**Country:** Canada\
 **Brand scope:** SM, DV, KG
 
 ## Business context
@@ -21,6 +21,14 @@ The September 19 KG sales report was shared. No sales, returns, or appeasement f
 ## Validation and next checks
 
 Recommended checks: compare transaction availability, generated files, downstream delivery, and email delivery as separate stages. Reconcile only dates with qualifying activity.
+
+## RCA and evidence
+
+The team distinguished missing email attachments from data already delivered to ChainDrive. No recurring email-delivery RCA was established.
+
+## Documented actions
+
+Compiled and shared historical reports, followed up on the missing KG date, and explained the confirmed zero-activity date.
 
 ## Evidence basis
 
